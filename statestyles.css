@@ -38,3 +38,7 @@ table{
 	margin-right: 10px;
 	font-size: x-small;
 }
+img{
+	max-width: 600px;
+	max-height: 300px;
+}
