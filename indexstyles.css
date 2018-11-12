@@ -1,0 +1,21 @@
+body{
+  margin-right: 10px;
+  align-items: center;
+  text-align: center;
+  background-color: lightblue;
+}
+
+h1{
+  color: navy;
+  font-size: 32px;
+  border: 25px solid green;
+  border-style:ridge;
+}
+
+h2{
+  font-size: 20px;
+}
+ul{
+  column-count: 5;
+  column-gap: 40px;
+}
