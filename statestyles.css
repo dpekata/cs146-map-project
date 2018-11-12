@@ -42,3 +42,10 @@ img{
 	max-width: 600px;
 	max-height: 300px;
 }
+tr{
+	color: red;
+}
+
+td{
+	color: grey;
+}
