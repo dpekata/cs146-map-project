@@ -7,21 +7,25 @@ body{
 thead{
 	text-align: center;
 	width: 100px;
+	display: flex;
 }
 
 table{
 	width: 100px;
+	display: flex;
+	border-collapse: collapse;
 }
 
 .content{
 	background-color: white;
-		margin-top: 16px;
-		margin-right: auto;
-		margin-left: auto;
-		padding-top: 16px;
-		box-shadow: 0px 0px 4px black;
-		width: 600px;
-		border-radius: 4px;
+	margin-top: 16px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	box-shadow: 0px 0px 4px black;
+	width: 600px;
+	border-radius: 4px;
 }
 
 #title{
@@ -30,21 +34,31 @@ table{
 
 
 #names{
-	align-items: flex-start;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 	margin-right: 10px;
-	font-size: x-small;
+	font-size: medium;
 }
 img{
 	max-width: 600px;
 	max-height: 300px;
 }
-tr{
-	color: red;
+
+@media only screen and (max-width: 998px) and (min-width: 400px){
+	thead{
+		justify-content: center;
+	}
+	table{
+		border-collapse: collapse;
+	}
+	.content{
+		width: 100%;
+	}
 }
 
-td{
-	color: grey;
+@media only screen and (max-width: 399px){
+	.content{
+		width: 100%;
+	}
 }
