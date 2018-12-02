@@ -35,12 +35,12 @@ div#main{
     height: 35px;
     margin-bottom: 25px;
     padding:10px;
-    border:3px solid #2BC1F2;
+    border:3px solid #ffe066;
     }
     
     textarea{
     width:100%;
-    border:3px solid #2BC1F2;
+    border:3px solid #ffe066;
     padding:10px;
     margin-bottom: 25px;
     margin-top: 10px;
@@ -51,7 +51,7 @@ div#main{
     input[type="submit"]{
     width:100%;
     padding: 10px 45px;
-    background-color: #2BC1F2;
+    background-color: #ffe066;
     border: none;
     color: white;
     font-size: 18px;
