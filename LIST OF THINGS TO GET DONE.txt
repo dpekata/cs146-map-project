@@ -1,5 +1,0 @@
-- Links at the bottom of each states page that brings you back to the index
-- Formatting for all devices
-- CSS for the index page
-- Links below the map on the index to each individual state? (Could potentially use some sort of fancy list thing)
-- Check the formatting for the state pages because the images might be a little funky
