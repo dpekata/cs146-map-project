@@ -59,4 +59,16 @@ div#main{
     cursor: pointer;
     font-family: sans-serif;
     }
-    
+@media only screen and (max-width: 998px) and (min-width: 400px){
+	#form{
+		width: 50%;
+		height: 100%;
+	}
+}
+
+@media only screen and (max-width: 399px){
+	#form{
+		width: 80%;
+		height: 100%;
+	}
+}
