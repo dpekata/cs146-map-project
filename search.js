@@ -10,7 +10,7 @@ document.getElementById("searchState").onclick = ()=> {
     }
     if(foundState == false){
       document.getElementById("result").innerHTML = `<button>State Not found</button>`;
-      document.getElementById("result").href = element.href;
+      document.getElementById("result").href = "error_page.html";
       document.getElementById("result").value = "javascript: void(0)";
     }
   }
