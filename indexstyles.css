@@ -14,6 +14,9 @@ h1 {
 h2 {
     font-size: 20px;
 }
+h4 {
+    display: none;
+}
 
 ul {
     column-count: 5;
@@ -30,7 +33,16 @@ ul {
        height: 50%;
     }
     #map{
-        display:none;
+        display: none;
+    }
+    h2{
+        display: none;
+    }
+    h3 {
+        display: none;
+    }
+    h4 {
+        display: inline;
     }
 }
 
@@ -45,6 +57,15 @@ ul {
         height: 75%;
     }
     #map{
-        display:none;
+        display: none;
+    }
+    h2{
+        display: none;
+    }
+    h3 {
+        display: none
+    }
+    h4 {
+        display: inline;
     }
 }
